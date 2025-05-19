@@ -6,18 +6,14 @@ This repository contains the dissertation work completed during my **Master of S
 
 ## 📁 Repository Structure
 
-.
-├── Presentations/
-│ ├── Transformers Architecture
-│ ├── BERT Base Uncased Model
-│ └── Final Project Presentation
-├── Thesis/
-│ └── Final Thesis Document (PDF/LaTeX)
-├── Papers that I Studied/
-│ └── Reference Research Papers
+- [Presentations](./Presentations/)
+  - [Transformers Architecture](./Presentations/Transformers_Architecture.pdf)
+  - [BERT Base Uncased Model](./Presentations/BERT_Base_Uncased_Model.pdf)
+  - [Final Project Presentation](./Presentations/Final_Project_Presentation.pdf)
+- [Thesis](./Thesis/)
+  - [Final Thesis Document](./Thesis/Thesis.pdf)
+- [Papers that I Studied](./Papers_that_I_Studied/)
 
-
----
 
 ## 🧾 Project Overview
 
