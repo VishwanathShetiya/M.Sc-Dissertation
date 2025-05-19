@@ -14,6 +14,9 @@ This repository contains the dissertation work completed during my **Master of S
 - [Thesis](./Thesis/)
   - [Final Thesis Document](./Thesis/Thesis.pdf)
 - [Papers that I Studied](./Papers_that_I_Studied/)
+    - [Transforner architecture](./Papers_that_I_Studied/1706.03762v7.pdf)
+    - [Bert](./Papers_that_I_Studied/1810.04805v2.pdf)
+    - [Top Down Approach](./Papers_that_I_Studied/topdown.pdf)
 
 
 
