@@ -1,23 +1,60 @@
-# M.Sc-Dissertation
-The repository contains my Dissertation that I worked on during my Master of Science in Mathematics with a specialization in Computer Science final year.
+# 🧠 M.Sc Dissertation – BERT Inference Microarchitectural Exploration
 
-Items in the respository:
-1. Presentations (Folder)
-   1. Presentation on Transformers Architecture.
-   2. Presentation on Bert Base uncased model.
-   3. Presentation of the whole project - BERT Base Uncased Inference Workload     Characterization and Microarchitectural Exploration on Intel Skylake Processor.
-2. Thesis (Folder)
-    1. Thesis of the whole project - BERT Base Uncased Inference Workload     Characterization and Microarchitectural Exploration on Intel Skylake Processor.
-3. Papers that I studied (Folder)
+This repository contains the dissertation work completed during my **Master of Science in Mathematics with a specialization in Computer Science**. The project focuses on the **microarchitectural characterization and optimization of transformer-based deep learning (DL) models**, specifically the **BERT Base Uncased** model, on an **Intel Skylake CPU** using **PyTorch**.
 
-Inforamation regarding the Project:
-This project focuses on the micro-architectural characterization of transformer-based deep learning models, specifically the BERT-base uncased model, running on an Intel Core Skylake CPU. The goal is to analyze and understand how such models perform at the micro-architectural level and identify opportunities for optimization and efficiency improvements.
+---
 
-We begin by exploring the fundamentals of transformer models and their computational demands. Recognizing that CPUs are still widely used for deep learning inference, particularly in resource-constrained or latency-sensitive environments, we aim to understand how efficiently transformer models operate on modern CPU architectures.
+## 📁 Repository Structure
 
-The project involves setting up a suitable environment with the necessary deep learning libraries and Intel VTune Profiler for performance analysis. A top-down performance analysis approach is employed to inspect the behavior of the model during inference and identify critical bottlenecks.
+.
+├── Presentations/
+│ ├── Transformers Architecture
+│ ├── BERT Base Uncased Model
+│ └── Final Project Presentation
+├── Thesis/
+│ └── Final Thesis Document (PDF/LaTeX)
+├── Papers that I Studied/
+│ └── Reference Research Papers
 
-Through hotspot analysis and micro-architectural profiling, we pinpoint the functions and hardware components that limit performance. The study culminates in proposing a theoretical hardware enhancement—adding an execution port to address the identified bottleneck, thereby improving the overall efficiency of transformer inference on CPUs.
 
-This research not only illuminates the interaction between transformer models and CPU hardware but also provides insights into optimizing deep learning workloads on general-purpose processors.
+---
 
+## 🧾 Project Overview
+
+This project investigates the **microarchitectural behavior of transformer-based DL models**—a key class of models in modern **machine learning (ML)**—by profiling the **BERT Base Uncased** inference workload on an **Intel Skylake CPU**. The goal is to understand how efficiently these models execute on general-purpose processors and identify performance bottlenecks at the hardware level.
+
+---
+
+## 🔍 Key Objectives
+
+- Explore computational patterns and resource usage of transformer DL models in ML workloads.
+- Profile the inference performance of BERT Base Uncased on Intel Skylake using **PyTorch**.
+- Apply **Intel VTune Profiler** with a **top-down microarchitectural analysis** methodology to identify CPU pipeline bottlenecks.
+- Pinpoint hotspot functions and inefficient hardware resource utilization impacting DL inference performance.
+
+---
+
+## 🛠️ Tools & Methodology
+
+- **PyTorch** deep learning framework
+- **Intel VTune Profiler** for microarchitectural performance profiling
+- **Top-down analysis methodology** to analyze CPU resource usage
+- Intel Core **Skylake** microarchitecture as the hardware platform
+
+---
+
+## 📈 Findings & Contribution
+
+- Discovered critical microarchitectural bottlenecks limiting BERT inference performance on Skylake CPUs.
+- Proposed a theoretical hardware enhancement—adding an **execution port**—to improve throughput and efficiency.
+- Provided insights into optimizing transformer DL workloads on CPU architectures widely used in latency-sensitive or resource-constrained ML applications.
+
+---
+
+## 🧩 Significance
+
+This research deepens the understanding of DL and ML workloads on CPU architectures, offering valuable guidance for:
+
+- Hardware-aware optimization of ML inference
+- Performance tuning of transformer models in CPU environments
+- Future CPU microarchitecture enhancements tailored for DL workloads
